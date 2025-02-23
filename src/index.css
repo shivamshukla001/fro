@@ -25,11 +25,11 @@ code {
   font-weight: 400;
 }
 
-/*  */
+  
 .navbar-nav .nav-item .nav-link {
   position: relative;
   font-size: 18px;
-  color: white; /* Change this according to your theme */
+  color: white;   
   transition: color 0.3s ease-in-out;
 }
 
@@ -40,13 +40,13 @@ code {
   bottom: 0;
   width: 0;
   height: 3px;
-  background-color: #00C896; /* Customize underline color */
+  background-color: #00C896;    
   transition: all 0.3s ease-in-out;
   transform: translateX(-50%);
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: #ff5733; /* Change color on hover */
+  color: #ff5733;  
 }
 
 .navbar-nav .nav-item .nav-link:hover::after {
@@ -72,3 +72,6 @@ th {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
+
+
