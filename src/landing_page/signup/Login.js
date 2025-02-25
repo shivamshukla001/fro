@@ -41,7 +41,7 @@ const Login = () => {
     try {
       await axios.post("http://localhost:7000/login", { email, password });
       
-      window.open("http://localhost:3001/", "_blank");
+      window.open("https://main-phi-bice.vercel.app/", "_blank");
     } catch (error) {
       console.error("Login failed", error);
     }

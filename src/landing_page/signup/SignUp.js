@@ -49,7 +49,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       await axios.post("http://localhost:7000/signup", { email, password,username });
-      window.open("http://localhost:3001/", "_blank"); // Navigate to Dashboard
+      window.open("https://main-phi-bice.vercel.app/", "_blank"); // Navigate to Dashboard
     } catch (error) {
       console.error("Signup failed", error);
     }
